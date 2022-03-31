@@ -2,11 +2,15 @@ html{
     scroll-behavior: smoooth;
 }
 
-.border{
+header{
 	box-sizing: border-box;
-	height:30px;
-	background-color: gray;
+	height:28px;
+	width: 100%;
+	background-color: lightgray;
 	border-bottom: 2px solid darkgray;
+	position:relative;
+	top: -10px;
+
  
 }
 
@@ -45,20 +49,31 @@ a:visited{
 	position:absolute;
 	box-sizing: border-box;
 	top: -12px;
-	size: 100px;
-	width: 50px;
 }
 
 nav{
-    background-image: linear-gradient( green, brown, orange);
-    box-sizing: border-box;
+    box-sizing:border-box;
+	background-image: linear-gradient( green, brown, orange);
     height: 85px;
     width: 100%;
     border-bottom: 3px solid gray;
-    position:sticky;
+    position:absolute;
+	top:25px;
     
 }
 
+.menu ul li{
+	font-size: 20px;
+	position:relative;
+	float:right;
+	display:inline;
+	left:-10px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px
+
+
+}
 
 	
 body{
