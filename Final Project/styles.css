@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smoooth;
+}
+.calendar-1 {
+	width: 180px;
+	height: 155px;
+	background: #ebebeb;
+	color: #000000;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 12px;
+}
