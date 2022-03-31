@@ -1,0 +1,51 @@
+*{
+    background-color: tan;
+}
+
+
+
+h1 {
+    color: red;
+    font-size: 10px;
+    text-align: center;
+}
+p{
+    color: blue;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+.para2{
+    color: aquamarine;
+
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul{
+list-style-type: none;
+color: white;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px;
+    border:1px solid white;
+}
+
+.box1{
+   background-color: blue;
+   color: antiquewhite;
+
+}
+.box2{
+    background-color: blueviolet;
+    color: aliceblue;
+
+
+}
+/* This is a comment */
+
+/* cmd/ctrl + ? */

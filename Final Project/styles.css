@@ -1,16 +1,76 @@
 html{
     scroll-behavior: smoooth;
 }
-.calendar-1 {
-	width: 180px;
-	height: 155px;
-	background: #ebebeb;
-	color: #000000;
-	border-color: #232323;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 3px 3px 3px 3px;
-	font-family: "Helvetica";
-	font-weight: 400;
-	font-size: 12px;
+
+.border{
+	box-sizing: border-box;
+	height:30px;
+	background-color: gray;
+	border-bottom: 2px solid darkgray;
+ 
 }
+
+a:link{
+	color: darkgreen;
+}
+a:visited{
+	color: orange;
+}
+
+.English-button{
+	box-sizing: border-box;
+	height: 10px;
+	width: 65px;
+	border: 3px black;
+	float: right;
+	font-size: 15px;
+	position: relative;
+	top: -1px;
+
+}
+
+.Spanish-button{
+	box-sizing: border-box;
+	height: 10px;
+	width: 65px;
+	border: 3px black;
+	float: right;
+	font-size: 15px;
+	position: relative;
+	top: -1px;
+}
+
+.cultiva-logo{
+	float:left;
+	position:absolute;
+	box-sizing: border-box;
+	top: -12px;
+	size: 100px;
+	width: 50px;
+}
+
+nav{
+    background-image: linear-gradient( green, brown, orange);
+    box-sizing: border-box;
+    height: 85px;
+    width: 100%;
+    border-bottom: 3px solid gray;
+    position:sticky;
+    
+}
+
+
+	
+body{
+		background: white;
+		font-size:22px;
+		line-height: 32px;
+		color: black;
+		word-wrap:break-word !important;
+		font-family: 'Open Sans', sans-serif;
+	   }
+
+
+
+
+

@@ -1,0 +1,26 @@
+.box{
+    height:100px;
+    width:100px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border:5px solid white;
+    display: inline-block;
+}
+
+.box1{
+   background-color: #33ccff; 
+}
+
+.box2{
+    background-color: #ffff00;
+}
+
+.box3{
+    background-color: #cc0099;
+}
+
+.box4{
+    background-color: #3333ff;
+}
+/* Daily Challenge */

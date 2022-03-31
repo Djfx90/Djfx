@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Header{
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    box-sizing: border-box;
+}
+}
+nav{
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-bottom: 10px solid #000;
+    position: sticky;
+    top: 20px;
+}
+.border{
+    border:3px solid #000;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin:-50px 0px; 
+    float: left;
+}
+nav ul{
+    list-style-type:none;
+    text-align:center;
+    float: inline-end;
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 10px;
+    
+}
+nav ul li a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: bold;
+}
+nav ul li a:hover{
+    color: darkcyan;
+}
+nav ul li a:visited{
+    color: purple;
+}
+
+nav ul li a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* aside{
+    background-color: blueviolet;
+    width: 50%;
+    height: 500px;
+    float: right;
+    box-sizing: border-box;
+}
+section, article{
+    background-color: blue;
+    height: 250px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+footer{
+    clear: both;
+    height: 50px;
+    background-color: purple;
+    box-sizing: border-box;
+
+} */
+
+main{
+    height: 800px;
+    /* background:url('/day4/img/pointer-finger-md.png'); */
+}
+
+main .main-child{
+    height: 300px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+main:hover{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba (0, 0, 0, 0.7);
+}
+.main-btn a{
+    background-color: black;
+    padding: 50px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    color: aqua;
+    padding: 20px 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
