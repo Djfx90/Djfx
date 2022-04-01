@@ -6,7 +6,7 @@ html{
 header{
 	box-sizing: border-box;
 	height:25px;
-	width: 102%;
+	width: 101%;
 	background-color: lightgray;
 	border-bottom: 2px solid darkgray;
 	position:relative;
@@ -107,8 +107,8 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: orange;
-  font-size: 150%;
-  text-decoration-line: underline;
+  font-size: 200%;
+  
 }
 
 .column{
@@ -177,8 +177,57 @@ body, html {
 	left: 75px;
 }
 
-.footer-bar{
-	
+footer{
+	box-sizing: content-box;
+	clear:both;
+	background-color: #ab7656;
+	width: 101%;
+	height: 260px;
+	position: relative;
+	top: 280px;
+
+}
+
+.footer-text{
+	box-sizing: border-box;
+	font-size: 13px;
+	position: sticky;
+	float: left;
+	text-align: justify;
+	transform: translate(140%, 75%)
+}
+
+.footer-text .bold{
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.map{
+	position: sticky;
+	float: left;
+	/* clear: both; */
+	top:;
+	transform: translate(-72%, 02%)
+}
+
+.facebook{
+	position: sticky;
+	float: left;
+	transform: translate(-270%, 0%)
+}
+
+.twitter{
+	position: sticky;
+	float: left;
+	transform: translate(-380%, 88%)
+}
+
+.regional-link{
+	position: sticky;
+	float: right;
+	transform: translate(-05%, 1300%)
 }
 
 /* body{
